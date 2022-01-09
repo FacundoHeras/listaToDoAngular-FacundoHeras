@@ -1,0 +1,20 @@
+.tarea{
+    display: flex;
+    box-sizing: border-box;
+    background-color:tan;
+    padding:15px;
+    margin-top: 15px;
+    color:  black;
+    border-radius: 10px;
+    
+}
+
+.realizada{
+    background-color: darkgreen;
+    text-decoration: line-through;
+    color:white;
+}
+
+.checkbox{
+    cursor:pointer;
+}

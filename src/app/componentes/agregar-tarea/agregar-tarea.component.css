@@ -1,0 +1,15 @@
+#inputTexto{
+    border-radius: 5px;
+}
+
+#inputBoton{
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    font-size: 20px;
+    background-color: chartreuse;
+    margin-left: 20px;
+}
+

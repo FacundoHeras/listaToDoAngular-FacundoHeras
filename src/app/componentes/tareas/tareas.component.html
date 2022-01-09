@@ -1,0 +1,7 @@
+<div class="componentes">
+   <app-agregar-tarea (agregarTarea)="agregarTarea($event)"></app-agregar-tarea>
+    <app-tarea 
+    *ngFor="let tarea of tareas" 
+    [tarea]="tarea"
+    ></app-tarea>
+</div>

@@ -1,0 +1,8 @@
+<div class="tarea" [ngClass]="{'realizada':tarea.realizada}">
+    <div>
+        <input type="checkbox" class="checkbox" [checked]="tarea.realizada"
+        (change)="onToggle(tarea)">
+        {{tarea.nombre}}
+    </div>
+    
+</div>
